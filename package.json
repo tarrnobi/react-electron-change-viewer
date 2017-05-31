@@ -4,12 +4,12 @@
   "description": "Tutorial for using Node, ReactJS, Enzyme",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -w --require test/helpers/browser.js test/*.spec.js",
+    "test": "mocha -w test/*.spec.js",
     "dev:hot": "webpack-dev-server --hot --inline --progress --colors --watch --client-log-level error --content-base ./"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tarrnobi/react-enzyme-tutorial.git"
+    "url": "git+https://github.com/tarrnobi/react-electron-change-viewer.git"
   },
   "keywords": [
     "ReactJS",
@@ -20,9 +20,9 @@
   "author": "Brendan Roberts",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tarrnobi/react-enzyme-tutorial/issues"
+    "url": "https://github.com/tarrnobi/react-electron-change-viewer/issues"
   },
-  "homepage": "https://github.com/tarrnobi/react-enzyme-tutorial#readme",
+  "homepage": "https://github.com/tarrnobi/react-electron-change-viewer#readme",
   "dependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
