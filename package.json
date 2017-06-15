@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "setup": "node setup.js",
-    "test": "mocha -w test/*.spec.js",
+    "test": "mocha test/*.spec.js",
     "dev:hot": "webpack-dev-server --hot --inline --progress --colors --watch --client-log-level error --content-base ./"
   },
   "repository": {
@@ -33,17 +33,20 @@
     "babel-preset-stage-0": "^6.24.1",
     "btoa": "^1.1.2",
     "dotenv": "^4.0.0",
-    "node-fetch": "^1.7.1",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
   },
   "devDependencies": {
     "chai": "^4.0.0",
     "enzyme": "^2.8.2",
     "jsdom": "^11.0.0",
     "mocha": "^3.4.2",
+    "mocha-sinon": "^2.0.0",
     "react-addons-test-utils": "^15.5.1",
+    "sinon": "^2.3.2",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
   }
